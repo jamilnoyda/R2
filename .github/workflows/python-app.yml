@@ -17,9 +17,9 @@ jobs:
       - name: Create Pull Request
         uses: jamilnoyda/create-pull-request@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+#           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: Add report file
-          committer: Jamil Noyda <jamilnoyda@users.noreply.github.com>
+          committer: Jamil Noyda <jamilnoyda@gmail.com>
           body: |
             New report
             - Contains *today's* date
